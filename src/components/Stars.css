@@ -1,0 +1,47 @@
+.stats-table-wrapper {
+  overflow-x: auto; /* Add horizontal scroll if needed */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background: #333;
+  color: white;
+}
+
+th, td {
+  padding: 12px; /* Increase padding for better spacing */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style the player card */
+.player-card {
+  text-decoration: none;
+  color: inherit;
+}
+
+.player-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.p-name {
+  margin-left: 10px;
+}
+
+.team-flag {
+  display: flex;
+  align-items: center;
+}
+
+tbody tr {
+  border-bottom: 2px solid #ddd; /* Add border between rows */
+  margin-bottom: 8px; /* Add margin between rows for spacing */
+}
+
+/* Add more styles as needed */

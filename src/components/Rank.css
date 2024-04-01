@@ -1,0 +1,264 @@
+/* Add this to your existing CSS styles or create a new CSS file */
+.category{
+    color: rgb(245, 245, 245); 
+    margin-right: 50px;
+    /* margin-top: 50px; */
+    font-size: 15px;
+    border: 1px solid rgb(252, 252, 252); /* Add a border with 1px width and solid black color */
+    padding: 5px 10px; /* Add padding to create space inside the border */
+    text-decoration: none; /* Remove underline from the anchor tag */
+    border-radius: 5px;
+}
+.ranking_nav_list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .ranking_nav_list li {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .ranking_nav_list a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .ranking_nav_list .active a {
+    color: rgb(220, 227, 229); /* Change the color to your desired active color */
+    font-weight: bold; /* Optionally, you can make the text bold */
+  }
+  
+  .ranking_nav_list li:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: transparent; /* Initially transparent */
+    transition: width 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .ranking_nav_list li.active:after {
+    width: 100%; /* Draw a line when the button is active */
+    background-color: rgb(72, 120, 135); /* Change the color of the line to match the active color */
+  }
+
+.ranking_nav {
+    background-color: #101016;
+    padding: 10px;
+}
+
+.ranking_nav_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ranking_nav_list li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.ranking_nav_list a {
+    text-decoration: none;
+    color: rgb(246, 245, 245);
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.ranking_nav_list a:hover {
+    background-color: #555;
+}
+
+/* Rank.css */
+
+/* ... (existing styles) ... */
+
+/* Style for the container */
+.container {
+    
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    /* display: inline-block; Add this line */
+    box-sizing: border-box;
+}
+
+/* Flex container styling for centering table boxes */
+.table-container {
+    justify-content: space-between; /* Adjust spacing between tables */
+    align-items: center;
+    flex-wrap: nowrap; /* Prevent wrapping to the next line */
+    overflow-x: auto;
+    display: inline-block;/* Enable horizontal scrolling if needed */
+}
+
+/* Additional styling for each table box */
+.table-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-right: 20px; /* Adjust margin between tables */
+    flex: 0 0 auto; /* Allow flex items to shrink and grow */
+}
+
+/* Style for the table headers */
+.table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Style for the alternating table rows */
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style for the ranking-head section */
+.ranking-head {
+    margin-bottom: 20px;
+}
+
+/* Style for the subnav_list items */
+.subnav_list {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.subnav_list a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.subnav_list.active a {
+    color: #000;
+    border-bottom: 2px solid #007bff;
+}
+
+/* Style for the ranking_nav and ranking_subnav_list */
+.ranking_nav,
+.ranking_subnav_list {
+    margin-bottom: 0px;
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 767px) {
+    .table-box {
+        margin-right: 0; /* Remove margin for small screens */
+    }
+}
+
+
+
+/* ... (existing styles) ... */
+
+/* Stylish Container for Ranking Tables */
+.stylish-container {
+    background-color: #fefafa;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(235, 232, 232, 0.2);
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+/* Stylish Flex Container */
+.stylish-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+.stylish-flex-container a {
+    /* Add any styles for the anchor tag here */
+    color: rgb(1, 1, 1); 
+    margin-right: 50px;
+    /* margin-top: 50px; */
+    font-size: 20px;
+    border: 1px solid black; /* Add a border with 1px width and solid black color */
+    padding: 5px 10px; /* Add padding to create space inside the border */
+    text-decoration: none; /* Remove underline from the anchor tag */
+    border-radius: 5px;/* Example color */
+  }
+
+/* ... (existing styles) ... */
+.stylish-table th,
+.stylish-table td {
+    padding: 10px; /* Adjust padding for better spacing */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    /* width: 50px;
+    height: 50px; */
+}
+/* Stylish Table Box */
+.stylish-table-box {
+    background-color: #f7f7f7;
+    border: 2px solid #f3f1f1;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    padding: 25px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+/* Stylish Table Headers */
+.stylish-table th {
+    background-color: #030516d7;
+    color: #fff;
+    padding: 15px;
+    text-align: left;
+    width: 100px;
+}
+
+/* Stylish Alternating Table Rows */
+.stylish-table tbody tr {
+    background-color: #fff; /* Background color for each row */
+    border-bottom: 2px solid #f3f1f1; /* Border between rows */
+}
+
+.stylish-table tbody tr:nth-child(even) {
+    background-color: #d6d3d3;
+}
+
+/* Stylish Ranking Head Section */
+.stylish-ranking-head {
+    margin-bottom: 30px;
+}
+
+/* Stylish Subnav List Items */
+.stylish-subnav-list {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.stylish-subnav-list a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    width: 20px;
+}
+
+.stylish-subnav-list.active a {
+    color: #ddd9d9;
+    border-bottom: 2px solid #007bff;
+}
+
+/* Responsive Styling for Small Screens */
+@media (max-width: 767px) {
+    .stylish-table-box {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+.th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}

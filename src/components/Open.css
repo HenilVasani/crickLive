@@ -1,0 +1,83 @@
+/* Open.css */
+
+body {
+    background-color: #f0f0f0; /* Set your desired background color */
+  }
+  
+  .live-score-card {
+    background-color: #0c1028; /* Set your desired card background color */
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    /* text-align: center; Center text */
+    color: white; /* Set text color to white */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .team-inning {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .team-img img {
+    border-radius: 50%;
+  }
+  
+  .team-content {
+    margin-left: 10px;
+  }
+  
+  .team-name {
+    font-weight: bold;
+  }
+  
+  .team-score {
+    margin-top: 10px;
+  }
+  
+  .runs span {
+    margin-right: 10px;
+  }
+  
+  .result-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+  }
+  
+  .team-inning.second-inning {
+    margin-left: auto;
+  }
+  
+  .team-name.team-2 {
+    text-align: right;
+  }
+  
+  .team-run-rate {
+    margin-top: 10px;
+  }
+  
+  .final-result {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center; /* Center the text */
+  }
+  
+  .blinking2 {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  

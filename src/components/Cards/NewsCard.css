@@ -1,0 +1,90 @@
+.news-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px; /* Adjust the margin as needed */
+  }
+  
+  .news-image {
+    width: 555px; /* Adjust the image width as needed */
+    height: 284px; /* Adjust the image height as needed */
+    object-fit: cover; /* Ensure the image covers the specified dimensions */
+  }
+  
+  .news-content {
+    flex: 1;
+    margin-left: 20px; /* Adjust the left margin as needed */
+  }
+  
+  .news-divider {
+    border-top: 1px solid #ddd; /* Color and style of the horizontal rule */
+    margin: 20px 0; /* Adjust the top and bottom margin as needed */
+  }
+  .name {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #333; /* Choose a color for the text */
+    margin-bottom: 20px;
+    margin-top: 20px; /* Add margin to create space below the header */
+  }
+
+  .text-3xl {
+    font-size: 1.875rem; /* Equivalent to 30px for a typical 16px base font size */
+    line-height: 1.2; /* Adjust line height as needed */
+  }
+  
+  .text-black {
+    color: #000; /* Black color */
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem; /* Adjust margin as needed */
+  }
+  
+  .text-lg {
+    font-size: 1.125rem; /* Equivalent to 18px for a typical 16px base font size */
+    line-height: 1.4; /* Adjust line height as needed */
+  }
+  
+  .text-gray-600 {
+    color: #6b7280; /* Gray color (#6b7280) */
+  }
+
+  h2.text-3xl {
+    font-size: 1.875rem; /* Equivalent to 30px for a typical 16px base font size */
+    line-height: 1.2; /* Adjust line height as needed */
+    color: #000; /* Black color */
+    font-weight: bold; /* Make the text bold */
+    margin-bottom: 0.5rem; /* Add bottom margin */
+  }
+  
+  /* Style the p elements with text-lg class */
+  p.text-lg {
+    font-size: 1.125rem; /* Equivalent to 18px for a typical 16px base font size */
+    line-height: 1.4; /* Adjust line height as needed */
+    color: #6b7280; /* Gray color (#6b7280) */
+  }
+  
+  /* Style the images */
+  img.news-image {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevents extra space beneath images */
+    margin-bottom: 1rem; /* Add bottom margin */
+  }
+  .read-more {
+    margin-left: 550px;
+    margin-top: 1rem; /* Add top margin for spacing */
+    color: #007bff; /* Blue color for the link */
+    cursor: pointer; /* Show pointer cursor on hover */
+    margin-bottom: 20px;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

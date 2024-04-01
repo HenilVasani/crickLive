@@ -1,0 +1,98 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #000;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+/* Add underline border when link is active (clicked) */
+.navbar a:active {
+  border-bottom: 2px solid white;
+}
+
+.navbar a:hover {
+  color: #ccc;
+}
+
+.navbar button {
+  background-color: #00b894;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar button:hover {
+  background-color: #009577;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.navbar .logo .title {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo .title .accent {
+  color: #00b894;
+  font-size: 48px;
+  line-height: 1;
+  margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    padding: 0 40px;
+  }
+
+  .navbar a {
+    margin-right: 30px;
+  }
+}
+/* Navbar.css */
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid white; /* Add border for active link */
+}
+
+.nav-link:hover {
+  color: #ccc;
+}

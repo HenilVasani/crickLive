@@ -1,0 +1,148 @@
+/* LiveScoreCard.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: auto;
+  padding: auto;
+}
+/* .text-black.text-3xl.font-bold.mb-4 {
+  margin-left: 50px;
+} */
+/* Background gradient styling */
+.live-score-container {
+  background: linear-gradient(to right, #eee5e5, #ebebd9);
+  color: #fff;
+  padding: 20px;
+}
+
+/* Override text color */
+.text-black {
+  color: #000000 !important;
+}
+
+/* Increase heading font size */
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+/* Bold font weight */
+.font-bold {
+  font-weight: 700;
+}
+
+/* Margin bottom utility class */
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+/* Slider container styling */
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Slider button styling */
+.slider-btn {
+  /* width: 40px; */
+  
+  height: 40px;
+  background-color: #e8e3e3;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.live-matches-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1500px; /* Fixed width */
+  margin: 0 auto;
+   /* Center the container horizontally */
+}
+
+/* Individual live match box styling */
+.live-match-box {
+  background-color: #f9f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(242, 239, 239, 0.1);
+  margin-bottom: 20px;
+  width: calc(50% - 20px); /* Adjust width as needed */
+  max-width: 330px; /* Set a max-width if necessary */
+  flex-basis: calc(50% - 20px); /* Adjust flex-basis for responsiveness */
+}
+
+/* Styles for live match content inside the box */
+.live-match-box h3 {
+  margin-bottom: 10px;
+}
+
+/* Add more specific styling as needed */
+.team-logo {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+}
+.team-name {
+  font-weight: 700;
+}
+
+.team-score {
+  margin-right: 5px; /* Adjust margin as needed */
+}
+
+.match-over {
+  color: #888; /* Light gray color for over */
+}
+/* CSS code */
+.tree-item {
+  margin-right: 10px;
+  color: #000000; /* Adjust the margin-right value as needed */
+}
+
+/* To remove margin-right from the last tree item */
+.tree-item:last-child {
+  margin-right: 0;
+}
+
+.match-status{
+  color: #000000;
+}
+
+.match-title{
+  color: #000000;
+}
+.match-info{
+  color: #000000;
+}
+
+
+
+.slider-btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; /* Align the button in the middle */
+  margin-top: 10px; /* Add some space between the button and matches */
+}
+
+.slider-btn {
+  
+  background-color: #e4e8ea;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid #030303; /* Add border */
+  display: flex;
+  justify-content: center; /* Align text in the middle horizontally */
+  align-items: center; /* Align text in the middle vertically */
+  color: black;
+}
+
+/* Hover effect for the button */
+.slider-btn:hover {
+  background-color: #a6c5d7;
+}

@@ -1,0 +1,94 @@
+/* Fixtures.css */
+
+.date {
+    margin-bottom: -15px;
+  }
+  
+  .matches-card-space {
+    border-bottom: 1px solid #ddd; /* Border between matches */
+  }
+  
+  .featured-matches-wrapper {
+    padding: 10px;
+  }
+  
+  .match-list-wrapper {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .match-card-container {
+    margin-bottom: 10px;
+  }
+  
+  .match-card-wrapper {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    border: 1px solid #ddd; /* Border around each match card */
+  }
+  
+  .match-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .team-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .team {
+    display: flex;
+    align-items: center;
+  }
+  
+  .team-wrapper {
+    margin-left: 10px;
+  }
+  
+  .team img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+  
+  .team-name {
+    margin-top: 5px;
+  }
+  
+  .not-started {
+    text-align: center;
+  }
+  
+  .start-text {
+    font-weight: bold;
+  }
+  
+  .time {
+    padding-bottom: 6px;
+  }
+/* Fixtures.css */
+
+/* Fixtures.css */
+
+.matches-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .date-row {
+    margin-top: 20px;
+    text-align: left;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .matches-card-space {
+    margin-top: 40px; /* Adjust as needed */
+  }
+  
+  /* ... (rest of your styles) */
+  
+    
